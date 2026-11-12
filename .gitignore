@@ -4,4 +4,5 @@ __pycache__/
 .ipynb_checkpoints/
 data/**/groundtruth/
 data/_cache/
-/*.zip
+*.pt
+runs/

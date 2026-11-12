@@ -1,0 +1,110 @@
+{
+  "disclosure": "Parameters selected on released groundtruth of the same images. Training-set improvement only; reference geometry is not exported.",
+  "tasks": {
+    "easy_semantic": {
+      "before": 0.8004990706854201,
+      "after": 0.8100541601843837,
+      "parameters": {
+        "road": {
+          "radius": "c9"
+        },
+        "sidewalk": {
+          "radius": "o5"
+        },
+        "building": {
+          "radius": "c5"
+        },
+        "vegetation": {
+          "radius": 20
+        },
+        "sky": {
+          "radius": "c2"
+        }
+      }
+    },
+    "medium_instance": {
+      "before": 0.6093641309987566,
+      "after": 0.6166093881475048,
+      "parameters": {
+        "person": {
+          "radius": "c2",
+          "min_area": 0
+        },
+        "bicycle": {
+          "radius": 0,
+          "min_area": 0
+        },
+        "car": {
+          "radius": "c5",
+          "min_area": 0
+        },
+        "motorcycle": {
+          "radius": "c5",
+          "min_area": 0
+        },
+        "bus": {
+          "radius": "c5",
+          "min_area": 0
+        },
+        "truck": {
+          "radius": 0,
+          "min_area": 0
+        }
+      }
+    },
+    "hard_panoptic": {
+      "before": 0.43099892836235104,
+      "after": 0.43712362668376364,
+      "parameters": {
+        "road": {
+          "radius": "c5",
+          "min_area": 0
+        },
+        "sidewalk": {
+          "radius": "c5",
+          "min_area": 0
+        },
+        "building": {
+          "radius": -1,
+          "min_area": 0
+        },
+        "vegetation": {
+          "radius": "c5",
+          "min_area": 0
+        },
+        "sky": {
+          "radius": "c3",
+          "min_area": 0
+        },
+        "person": {
+          "radius": 0,
+          "min_area": 0
+        },
+        "car": {
+          "radius": "o3",
+          "min_area": 0
+        },
+        "bus": {
+          "radius": 0,
+          "min_area": 0
+        },
+        "truck": {
+          "radius": "o1",
+          "min_area": 0
+        },
+        "motorcycle": {
+          "radius": 0,
+          "min_area": 0
+        },
+        "bicycle": {
+          "radius": 0,
+          "min_area": 0
+        },
+        "traffic light": {
+          "radius": "o2",
+          "min_area": 0
+        }
+      }
+    }
+  }
+}
